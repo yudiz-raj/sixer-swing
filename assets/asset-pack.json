@@ -1,0 +1,181 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/1.png",
+                "type": "image",
+                "key": "1"
+            },
+            {
+                "url": "assets/images/1_highlight.png",
+                "type": "image",
+                "key": "1_highlight"
+            },
+            {
+                "url": "assets/images/2.png",
+                "type": "image",
+                "key": "2"
+            },
+            {
+                "url": "assets/images/2_highlight.png",
+                "type": "image",
+                "key": "2_highlight"
+            },
+            {
+                "url": "assets/images/3.png",
+                "type": "image",
+                "key": "3"
+            },
+            {
+                "url": "assets/images/3_highlight.png",
+                "type": "image",
+                "key": "3_highlight"
+            },
+            {
+                "url": "assets/images/4.png",
+                "type": "image",
+                "key": "4"
+            },
+            {
+                "url": "assets/images/4_highlight.png",
+                "type": "image",
+                "key": "4_highlight"
+            },
+            {
+                "url": "assets/images/6.png",
+                "type": "image",
+                "key": "6"
+            },
+            {
+                "url": "assets/images/6_highlight.png",
+                "type": "image",
+                "key": "6_highlight"
+            },
+            {
+                "url": "assets/images/ball-sheet1.png",
+                "type": "image",
+                "key": "ball"
+            },
+            {
+                "url": "assets/images/ball-sheet0.png",
+                "type": "image",
+                "key": "ball-sheet0"
+            },
+            {
+                "url": "assets/images/bat.png",
+                "type": "image",
+                "key": "bat"
+            },
+            {
+                "url": "assets/images/bb-sheet0.png",
+                "type": "image",
+                "key": "bb-sheet0"
+            },
+            {
+                "url": "assets/images/bg-sheet-pitch.png",
+                "type": "image",
+                "key": "bg-sheet-pitch"
+            },
+            {
+                "url": "assets/images/info_btn.png",
+                "type": "image",
+                "key": "info_btn"
+            },
+            {
+                "url": "assets/images/info_popup.png",
+                "type": "image",
+                "key": "info_popup"
+            },
+            {
+                "url": "assets/images/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "assets/images/mud.png",
+                "type": "image",
+                "key": "mud"
+            },
+            {
+                "url": "assets/images/off_line.png",
+                "type": "image",
+                "key": "off_line"
+            },
+            {
+                "url": "assets/images/out.png",
+                "type": "image",
+                "key": "out"
+            },
+            {
+                "url": "assets/images/play_btn.png",
+                "type": "image",
+                "key": "play_btn"
+            },
+            {
+                "url": "assets/images/player-sheet2.png",
+                "frameConfig": {
+                    "frameWidth": 269,
+                    "frameHeight": 260,
+                    "startFrame": 0,
+                    "endFrame": -1,
+                    "spacing": 0,
+                    "margin": 0
+                },
+                "type": "spritesheet",
+                "key": "player-sheet2"
+            },
+            {
+                "url": "assets/animations/playerAnimation.json",
+                "type": "animation",
+                "key": "playerAnimation"
+            },
+            {
+                "url": "src/components/PlayerIdleAnim.js",
+                "type": "script",
+                "key": "PlayerIdleAnim"
+            },
+            {
+                "url": "src/components/PlayerShotAnim.js",
+                "type": "script",
+                "key": "PlayerShotAnim"
+            },
+            {
+                "url": "src/components/Popup.js",
+                "type": "script",
+                "key": "Popup"
+            },
+            {
+                "url": "assets/images/sound_btn.png",
+                "type": "image",
+                "key": "sound_btn"
+            },
+            {
+                "url": "assets/images/sprite4-sheet0.png",
+                "type": "image",
+                "key": "sprite4-sheet0"
+            },
+            {
+                "url": "assets/images/wicket2-sheet0.png",
+                "type": "image",
+                "key": "wicket2-sheet0"
+            },
+            {
+                "url": "assets/images/you_lose.png",
+                "type": "image",
+                "key": "you_lose"
+            },
+            {
+                "url": "assets/images/you_win.png",
+                "type": "image",
+                "key": "you_win"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

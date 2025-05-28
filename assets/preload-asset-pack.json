@@ -1,0 +1,65 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": [
+                    "assets/sounds/ballHit_sound.mp3"
+                ],
+                "type": "audio",
+                "key": "ballHit_sound"
+            },
+            {
+                "url": [
+                    "assets/sounds/bg_music.mp3"
+                ],
+                "type": "audio",
+                "key": "bg_music"
+            },
+            {
+                "url": "assets/images/bg-sheet1.png",
+                "type": "image",
+                "key": "bg-sheet1"
+            },
+            {
+                "url": [
+                    "assets/sounds/click_sound.mp3"
+                ],
+                "type": "audio",
+                "key": "click_sound"
+            },
+            {
+                "url": [
+                    "assets/sounds/crowdBackground_sound.mp3"
+                ],
+                "type": "audio",
+                "key": "crowdBackground_sound"
+            },
+            {
+                "url": [
+                    "assets/sounds/crowdClapping_sound.mp3"
+                ],
+                "type": "audio",
+                "key": "crowdClapping_sound"
+            },
+            {
+                "url": "src/managers/SoundManager.js",
+                "type": "script",
+                "key": "SoundManager"
+            },
+            {
+                "url": [
+                    "assets/sounds/wicketHit_sound.mp3"
+                ],
+                "type": "audio",
+                "key": "wicketHit_sound"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

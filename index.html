@@ -1,0 +1,109 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Sixer Swing</title>
+	<link rel="shortcut icon" href="assets/images/logo.png" type="image/x-icon">
+	<link rel="stylesheet preload" as="font" href="assets/fonts/digital.ttf" type="font/ttf" crossorigin />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="lib/phaser.min.js"></script>
+	<script src="src/components/UserComponent.js"></script>
+	<script src="src/components/PushOnClick.js"></script>
+	<script src="src/components/PreloadText.js"></script>
+	<script src="src/scenes/Preload.js"></script>
+	<script src="src/scenes/Level.js"></script>
+	<script src="src/scenes/Home.js"></script>
+	<script src="src/main.js"></script>
+
+	<style>
+		@font-face {
+			font-family: 'digital';
+			src: url('assets/fonts/digital.ttf');
+		}
+
+		body {
+			background: #000000;
+			margin: 0;
+			padding: 0;
+			overflow: hidden !important;
+		}
+
+		#portraitNotify {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			background-color: #000000;
+			background-image: url('assets/device/portraitNotification.gif');
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: none;
+			z-index: 999;
+			background-size: 100% auto;
+		}
+	</style>
+
+</head>
+
+<body>
+	<div id="portraitNotify"></div>
+	<script>
+		var game;
+		var detectDevice;
+		const gameName = "Cricket - ";
+		console.log(gameName, "V1.00");
+	</script>
+	<div id="game-division" style="background-color: #000000;"></div>
+	<table width=100% height=100% border="0" id="splashPage">
+		<tr>
+			<td style="text-align: center; vertical-align: middle;">
+			</td>
+		</tr>
+	</table>
+	<script>
+		function init() {
+			getMobileOperatingSystem();
+		}
+		function getMobileOperatingSystem() {
+			var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+			if (/windows phone/i.test(userAgent)) {
+				detectDevice = "Windows";
+				console.log("Device: Windows");
+			} else if (/android/i.test(userAgent)) {
+				detectDevice = "Android";
+				console.log("Device: Android");
+			} else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+				detectDevice = "IOS";
+				console.log("Device: IOS");
+			} else {
+				detectDevice = "Desktop"
+				console.log("Device: Desktop");
+			}
+		}
+		window.onload = init();
+		// window.onload = event => {
+		//     if (window.innerHeight > window.innerWidth) {
+		//         console.log("Please use Landscape!");
+		//         document.getElementById("portraitNotify").style.display = "block";
+		//     } else {
+		//         console.log("Landscape Mode Verified!");
+		//         document.getElementById("portraitNotify").style.display = "none";
+		//     }
+		// }
+		// window.onorientationchange = event => {
+		//     if (window.innerHeight > window.innerWidth) {
+		//         console.log("Please use Landscape!");
+		//         document.getElementById("portraitNotify").style.display = "none";
+		//     } else {
+		//         console.log("Landscape Mode Verified!");
+		//         document.getElementById("portraitNotify").style.display = "block";
+		//     }
+		// };
+	</script>
+</body>
+
+</html>

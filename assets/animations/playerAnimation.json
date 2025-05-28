@@ -1,0 +1,116 @@
+{
+    "anims": [
+        {
+            "key": "playerIdle",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player-sheet2",
+                    "frame": 35,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 36,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 37,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 38,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 39,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 40,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 8,
+            "skipMissedFrames": true,
+            "repeat": -1,
+            "repeatDelay": 250
+        },
+        {
+            "key": "playerShot",
+            "type": "frame",
+            "frames": [
+                {
+                    "key": "player-sheet2",
+                    "frame": 21,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 22,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 23,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 24,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 25,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 26,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 27,
+                    "duration": 0,
+                    "keyframe": false
+                },
+                {
+                    "key": "player-sheet2",
+                    "frame": 28,
+                    "duration": 0,
+                    "keyframe": false
+                }
+            ],
+            "frameRate": 18,
+            "skipMissedFrames": true
+        }
+    ],
+    "globalTimeScale": 1,
+    "meta": {
+        "app": "Phaser Editor 2D v3",
+        "contentType": "Phaser v3 Animations"
+    },
+    "settings": {
+        "sourceLang": "JAVA_SCRIPT",
+        "esModule": false,
+        "generateCode": false
+    }
+}

@@ -1,0 +1,366 @@
+{
+    "id": "01aefa93-6044-4159-8358-7e91310aa05f",
+    "sceneType": "SCENE",
+    "settings": {
+        "preloadPackFiles": [],
+        "createMethodName": "editorCreate",
+        "sceneKey": "Level",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Image",
+            "id": "6fb472bf-fd40-4185-ad34-d53f03764ae6",
+            "label": "stadiumBackground",
+            "scope": "CLASS",
+            "texture": {
+                "key": "bg-sheet1"
+            },
+            "x": 960,
+            "y": 540,
+            "scaleX": 1.55,
+            "scaleY": 1.55
+        },
+        {
+            "type": "Container",
+            "id": "43d9e001-2584-4a29-9cf4-be46a8cca592",
+            "label": "runsContainer",
+            "list": [
+                {
+                    "type": "Text",
+                    "id": "3f4e9e59-b8be-4668-b801-57c26369eef9",
+                    "label": "scoreTitle",
+                    "x": 895,
+                    "y": 514,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "SCORE",
+                    "align": "center",
+                    "fontFamily": "digital",
+                    "fontSize": "28px",
+                    "color": "#55fe01",
+                    "baselineX": 0,
+                    "baselineY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "e82d71d5-26a7-4740-a095-f91b97e9a4d1",
+                    "label": "runsText",
+                    "scope": "CLASS",
+                    "x": 895,
+                    "y": 560,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "align": "center",
+                    "fontFamily": "digital",
+                    "fontSize": "58px",
+                    "color": "#55fe01",
+                    "baselineX": 0,
+                    "baselineY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "a8dcdb5c-862c-45b5-ab33-1634be331fda",
+                    "label": "targetScoreTitle",
+                    "x": 1015,
+                    "y": 514,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "TARGET",
+                    "align": "center",
+                    "fontFamily": "digital",
+                    "fontSize": "28px",
+                    "color": "#fefe02",
+                    "baselineX": 0,
+                    "baselineY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "77c45544-1969-465b-aa98-32235ffbd169",
+                    "label": "targetRunsText",
+                    "scope": "CLASS",
+                    "x": 1015,
+                    "y": 560,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "0",
+                    "align": "center",
+                    "fontFamily": "digital",
+                    "fontSize": "58px",
+                    "color": "#fefe02",
+                    "baselineX": 0,
+                    "baselineY": 0
+                },
+                {
+                    "type": "Text",
+                    "id": "072aec34-cff7-4140-a00a-3c6a2aeb5baa",
+                    "label": "text_1",
+                    "x": 952,
+                    "y": 543,
+                    "originX": 0.5,
+                    "originY": 0.5,
+                    "text": "|\n|\n|\n|\n|\n|",
+                    "color": "#c2c8c9"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "299167a9-ee1f-4995-9414-e422d295ad2f",
+            "label": "backgroundContainer",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "4e000f3b-16ec-4ab4-9389-ea5f6e89f43e",
+                    "label": "playAgainBtn",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "play_btn"
+                    },
+                    "x": 960,
+                    "y": 915,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "a88d93fb-540b-408c-b051-2ae299c2d6da",
+                    "label": "out_image",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "out"
+                    },
+                    "x": 960,
+                    "y": 306,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "b7ac5c10-5a37-44c7-9395-32c1f27d53ff",
+                    "label": "you_win",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "you_win"
+                    },
+                    "x": 960,
+                    "y": 438,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "visible": false
+                },
+                {
+                    "type": "Image",
+                    "id": "6498884e-82df-4fa3-8345-bf19b4e598be",
+                    "label": "you_lose",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "you_lose"
+                    },
+                    "x": 960,
+                    "y": 494,
+                    "scaleX": 0.8,
+                    "scaleY": 0.8,
+                    "visible": false
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "b16394f6-5717-46b2-ad60-fe43b8302fc9",
+            "label": "scoreContainer",
+            "scope": "CLASS",
+            "y": 1,
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "fa2a6795-5e28-413d-b324-fc29adf15e73",
+                    "label": "scoreBackground",
+                    "texture": {
+                        "key": "bb-sheet0"
+                    },
+                    "x": 1775,
+                    "y": 540,
+                    "scaleX": 1.5,
+                    "scaleY": 1.5
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "784d42f9-54e2-4d3b-b8c1-85518506d79f",
+            "label": "wicketContainer",
+            "scope": "CLASS",
+            "list": [
+                {
+                    "type": "Image",
+                    "id": "fd15c442-40bc-443f-8ed8-9a4b77b08135",
+                    "label": "wicket1",
+                    "texture": {
+                        "key": "wicket2-sheet0"
+                    },
+                    "x": 168,
+                    "y": 854
+                },
+                {
+                    "type": "Image",
+                    "id": "9ecd0096-7485-4e7b-803d-fa26d23cd441",
+                    "label": "wicket3",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "wicket2-sheet0"
+                    },
+                    "x": 168,
+                    "y": 935,
+                    "originY": 1
+                },
+                {
+                    "type": "Image",
+                    "id": "627dff31-fc11-484d-b168-b994b08fb989",
+                    "label": "wicket2",
+                    "scope": "CLASS",
+                    "texture": {
+                        "key": "wicket2-sheet0"
+                    },
+                    "x": 168,
+                    "y": 934,
+                    "originY": 1
+                }
+            ]
+        },
+        {
+            "type": "Sprite",
+            "id": "506d8f01-3e42-4594-8504-4f5fba776647",
+            "label": "player",
+            "scope": "CLASS",
+            "components": [
+                "PlayerIdleAnim"
+            ],
+            "texture": {
+                "key": "player-sheet2",
+                "frame": 35
+            },
+            "x": 410,
+            "y": 784,
+            "scaleX": 1.6,
+            "scaleY": 1.6
+        },
+        {
+            "type": "Image",
+            "id": "3d9a284d-f9ff-4811-9ef7-9f988c47f869",
+            "label": "oneRun",
+            "scope": "CLASS",
+            "texture": {
+                "key": "1"
+            },
+            "x": 1684,
+            "y": 983,
+            "scaleX": 1.5,
+            "scaleY": 1.5
+        },
+        {
+            "type": "Image",
+            "id": "c72a0860-3cef-4890-aaf6-714c3b1fe39a",
+            "label": "twoRun",
+            "scope": "CLASS",
+            "texture": {
+                "key": "2"
+            },
+            "x": 1747,
+            "y": 765,
+            "scaleX": 1.6,
+            "scaleY": 1.6
+        },
+        {
+            "type": "Image",
+            "id": "008b39c1-ab8d-4721-bc1d-55a0d1a5c712",
+            "label": "threeRun",
+            "scope": "CLASS",
+            "texture": {
+                "key": "3"
+            },
+            "x": 1763,
+            "y": 540,
+            "scaleX": 1.6,
+            "scaleY": 1.6
+        },
+        {
+            "type": "Image",
+            "id": "4babf244-cf7d-4752-adb8-8e7fd9d6a389",
+            "label": "fourRun",
+            "scope": "CLASS",
+            "texture": {
+                "key": "4"
+            },
+            "x": 1740,
+            "y": 315,
+            "scaleX": 1.6,
+            "scaleY": 1.6
+        },
+        {
+            "type": "Image",
+            "id": "8878fa81-cd77-4bca-b767-c601e950ffbc",
+            "label": "sixRun",
+            "scope": "CLASS",
+            "texture": {
+                "key": "6"
+            },
+            "x": 1668,
+            "y": 91,
+            "scaleX": 1.6,
+            "scaleY": 1.6
+        },
+        {
+            "type": "Container",
+            "id": "ad120db7-5574-430d-884c-672819c63cc3",
+            "label": "batC",
+            "scope": "CLASS"
+        },
+        {
+            "type": "Image",
+            "id": "2aa2981e-99e9-432e-a1d8-6b98b933c474",
+            "label": "sound_btn",
+            "scope": "CLASS",
+            "texture": {
+                "key": "sound_btn"
+            },
+            "x": 1830,
+            "y": 1019,
+            "scaleX": 1.4,
+            "scaleY": 1.4
+        },
+        {
+            "type": "Image",
+            "id": "fcc10551-c431-41e9-b42d-8c50bea6b1cf",
+            "label": "off_line",
+            "scope": "CLASS",
+            "texture": {
+                "key": "off_line"
+            },
+            "x": 1832,
+            "y": 1014,
+            "scaleX": 1.4,
+            "scaleY": 1.4
+        },
+        {
+            "type": "Image",
+            "id": "fab9001d-01a2-4bf7-8db7-158717efb825",
+            "label": "mud",
+            "texture": {
+                "key": "mud"
+            },
+            "x": 170,
+            "y": 930
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 5
+    }
+}

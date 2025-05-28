@@ -1,0 +1,72 @@
+{
+    "components": [
+        {
+            "name": "PushOnClick",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Image",
+            "properties": []
+        },
+        {
+            "name": "PreloadText",
+            "baseClass": "UserComponent",
+            "gameObjectType": "Phaser.GameObjects.Text",
+            "properties": []
+        },
+        {
+            "name": "PlayerIdleAnim",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "playerIdleAnim",
+                    "label": "playerIdleAnim",
+                    "tooltip": "playerIdleAnim",
+                    "defValue": "playerIdle",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "animation-key"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "PlayerShotAnim",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "playerShotAnim",
+                    "label": "playerShotAnim",
+                    "tooltip": "playerShotAnim",
+                    "defValue": "playerShot",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "animation-key"
+                    }
+                }
+            ]
+        },
+        {
+            "name": "WicketAnim",
+            "baseClass": "",
+            "gameObjectType": "Phaser.GameObjects.Sprite",
+            "properties": [
+                {
+                    "name": "wicketAnimPlayer",
+                    "label": "wicketAnimPlayer",
+                    "tooltip": "wicketAnimPlayer",
+                    "defValue": "wicketAnimation",
+                    "customDefinition": false,
+                    "type": {
+                        "id": "animation-key"
+                    }
+                }
+            ]
+        }
+    ],
+    "meta": {
+        "app": "Phaser Editor 2D - Object Script Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType"
+    }
+}
